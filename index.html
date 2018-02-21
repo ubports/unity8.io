@@ -3,56 +3,67 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Unity8 - The convergent desktop environment</title>
 </head>
 
-<body style="color: #787878;">
-    <nav class="navbar navbar-default" style="background: none; border: none;">
-        <div class="container">
-          <a class="navbar-brand" href="#">Unity8</a>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://forums.ubports.com/">Forums</a></li>
-                <li><a href="https://docs.ubports.com/">Docs</a></li>
-                <li><a href="https://ubports.com/blog/">Blog</a></li>
-                <li><a href="https://ubports.com/get-involved">Get involved</a></li>
-                <li><a href="https://ubports.com/">UBports Foundation</a></li>
-                <li><a href="https://ubuntu-touch.io/">Ubuntu Touch</a></li>
-                <li><a href="https://ubports.com/sponsors">Sponsors</a></li>
-                <li><a href="https://ubports.com/donate">Donate</a></li>
-            </ul>
-        </div>
-    </nav>
+<body>
     <div class="container">
-        <center>
-            <h1>Unity8</h1>
-        </center>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Unity8</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://forums.ubports.com/">Forums</a></li>
+                        <li><a href="https://docs.ubports.com/">Docs</a></li>
+                        <li><a href="https://ubports.com/blog/">Blog</a></li>
+                        <li><a href="https://ubports.com/get-involved">Get involved</a></li>
+                        <li><a href="https://ubports.com/">UBports Foundation</a></li>
+                        <li><a href="https://ubuntu-touch.io/">Ubuntu Touch</a></li>
+                        <li><a href="https://ubports.com/sponsors">Sponsors</a></li>
+                        <li><a href="https://ubports.com/donate">Donate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <h1 class="text-center">Unity8</h1>
         <p>
-          <div style="font-size: 21px; margin: 0 0 5px 0; font-weight: bold;">Why?</div>
+          <h2>Why?</h2>
           <div>
             After Canonical announced that they will stop investing in Convergence, the UBports community stepped forward to pick up the development of the <a href="https://ubuntu-touch.io">Ubuntu Touch operating system</a>.
             Initially, our first priority has been to make sure that every Ubuntu Touch user could continue to use their device, and the response from the community has been overwhelmingly positive.
             We are now at a point where we believe that we are ready to explore the possibilities of Unity8 on the desktop.
           </div>
-          <div style="font-size: 21px; margin: 10px 0 5px 0; font-weight: bold;">Where?</div>
+          <h2>Where?</h2>
           <div>
             The development will take place on <a href="https://github.com/ubports/unity8">GitHub</a>.<br />
             You can also join our telegram groups: <a href="https://t.me/UBports_Unity8">Unity8 development group</a> <a href="https://t.me/ubports">UBports Supergroup</a>
           </div>
-          <div style="font-size: 21px; margin: 10px 0 5px 0; font-weight: bold;">When?</div>
+          <h2>When?</h2>
           <div>
-            Unlike on the phone, Unity8 is not ready for production use on the desktop yet. However, you can <a href="https://github.com/ubports/unity8-desktop-install-tools>install a development preview on Ubuntu 16.04</a> to explore the current status.
+            Unlike on the phone, Unity8 is not ready for production use on the desktop yet. However, you can <a href="https://github.com/ubports/unity8-desktop-install-tools">install a development preview on Ubuntu 16.04</a> to explore the current status.
             Visit our <a href="https://github.com/ubports/unity8/projects/1"> GitHub project</a> to see what we are workin on at the moment and where we could use your help.
           </div>
-          <div style="font-size: 21px; margin: 10px 0 5px 0; font-weight: bold;">What about Mir?</div>
+          <h2>What about Mir?</h2>
           <div>
             Development of the <a href="https://mir-server.io"> Mir display server</a> (now compatible with <a href="https://wayland.freedesktop.org/">Wayland</a>) is continued by a very talented and motivated team at Canonical. You can contribute to their work <a href="https://github.com/MirServer">directly upstream</a>.
           </div>
         </p>
-        <hr style="margin-bottom: 5px;"/>
-        <center>
-            <p>This site is not an any way endorsed by or affiliated with<a href="http://ubuntu.com/"> Ubuntu</a>. Ubuntu are registered trademarks of<a href="http://www.canonical.com/"> Canonical Ltd.</a></p>
-        </center>
+        <hr/>
+        <footer >
+            <p class="text-center">This site is not an any way endorsed by or affiliated with<a href="http://ubuntu.com/"> Ubuntu</a>. Ubuntu are registered trademarks of<a href="http://www.canonical.com/"> Canonical Ltd.</a></p>
+        </footer>
     </div>
 </body>
 
